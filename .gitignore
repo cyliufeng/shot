@@ -1,0 +1,29 @@
+# Python 本地虚拟环境
+.venv/
+venv/
+env/
+
+# Python 运行时缓存
+__pycache__/
+*.py[cod]
+
+# 测试、类型检查和工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地环境变量和日志
+.env
+.env.*
+*.log
+
+# 截图工具生成的图片
+screenshots/*.jpg
+
+# 打包生成的文件
+build/
+dist/
+*.egg-info/
+
+# 取消idea
+.idea/
