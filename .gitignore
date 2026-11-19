@@ -27,3 +27,9 @@ dist/
 
 # 取消idea
 .idea/
+
+# 本机训练配置、预训练权重和训练输出
+.ultralytics/
+runs/
+yolov8n.pt
+dataset/**/*.cache
